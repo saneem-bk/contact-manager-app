@@ -1,0 +1,100 @@
+body {
+    background-color: #CDE8E5;
+  }
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #7AB2B2;
+  }
+  label {
+    font-weight: bold;
+  }
+  button {
+    background-color: aqua;
+  }
+  
+  .input-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  .contacts-container {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #EEF7FF;
+  }
+  .contact-item { 
+    background-color: rgb(77, 134, 156);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    display: flex; 
+    align-items: center;
+  }
+  
+  .header-footer {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-name {
+    font-weight : bold; 
+  }
+  
+  
+  .contact-delete {
+    margin-left: auto;
+    padding-right: 50px;
+    cursor: pointer;
+    height: 23px;
+    width: 23px; 
+  }
+.contact-icon {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+  
+  #contact-img {
+        max-width: 100%;
+        height : auto;
+  
+  }
+  .contact-delete {
+    font-size: 24px;
+    color: red;
+  }
+  .contact-delete:hover {
+    color: red;
+  }
+  h3 {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-top: 20px;
+  }
+  h4 {
+    text-decoration: underline;
+  }
+  input {
+    flex: auto;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 8px 12px;
+  }
